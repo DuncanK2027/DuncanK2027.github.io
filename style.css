@@ -1,1 +1,20 @@
+div {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px
+}
 
+div {
+    border: px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+    h1 {color:white;
+        text-align: center;
+        font-size: 45px;
+        color: #FFFFFF;
+        text-shadow: 3px 5px 2px #cbc1c1c1;
+        color: #FFFFFF;
+        }
