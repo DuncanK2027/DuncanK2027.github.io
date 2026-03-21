@@ -1,20 +1,35 @@
+@import url('https://fonts.googleapis.com/cssfamily=Engagement&family=Michroma&display=swap');
+
 div {
-    border: 2px solid gray;
+    
     border-radius: 5px;
     padding: 30px;
     margin: 10px
 }
 
 div {
-    border: px solid black;
+   
     border-radius: 5px;
     padding: 10px;
 }
 
     h1 {color:white;
         text-align: center;
-        font-size: 45px;
+        font-size: 100px;
         color: #FFFFFF;
         text-shadow: 3px 5px 2px #cbc1c1c1;
         color: #FFFFFF;
-        }
+    }
+
+
+    h2 {
+        font-family: 'Engagement', cursive;
+        font-size: 40px !important;
+        /*I learned that "!important" can be used to override bootstrap code (via Google Search) because Bootstrap's default heading styles replaced my custom size.*/
+    }
+
+#section-1 .row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
